@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/contacto.css">
+    <link rel="icon" href="../images/Favicon/favicon-32x32.png">
+    <title>Valentina Gonzalez</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__container">   
+            <img src="../images/Logo/Logo2.png" alt="">
+            <h1>Valentina Gonzalez</h1>
+            <h2>Contacto</h2>
+        </div>
+        <div class="navBar">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Página Principal</a>
+                    </li>
+                    <li>
+                        <a href="peluqueria.html">Peluquería</a>
+                    </li>
+                    <li>
+                        <a href="estetica.html">Estética</a>
+                    </li>
+                    <li>
+                        <a href="manicuria.html">Manicuría</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Formulario de Contacto:
+                </legend>
+                <ul>
+                    <li>
+                        <label for="">
+                        Nombre y Apellido:
+                        <input type="text" name="nombre" maxlength="30" required="required">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="">
+                        Teléfono:
+                        <input type="text" name="tel" maxlength="10" placeholder="Ingrese su número sin el 0 o el 15" size="30" required="required">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="">
+                            Mail:
+                            <input type="email" name="mail" placeholder="ejemplo@gmail.com" required="required">
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset class="motivoConsulta">
+                <legend>Motivo de Consulta:</legend>
+                <ul>
+                    <li>    
+                        <select name="servicio" required="required">
+                            <option value="peluqueria">Peluquería</option>
+                            <option value="estética">Estética</option>
+                            <option value="manicuria">Manicuría</option>
+                        </select>
+                    </li>
+                </ul>
+                <label for="">
+                    <textarea name="servicio" cols="30" rows="5"
+                    placeholder="Que servicio desea?" required="required"></textarea>
+                </label>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
+    </main>
+    
+    <!--    Footer      -->
+    
+    <footer>    
+        <h3>
+            Seguinos en
+            <a href="https://www.instagram.com/valentinag.estetica" target="_blank">Instagram</a>
+            y
+            <a href="https://www.facebook.com/valentinag.estetica"target="_blank">Facebook</a>
+        </h3>
+        <iframe src="https://giphy.com/embed/cXblnKXr2BQOaYnTni" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/theoffice-the-office-tv-moroccan-christmas-cXblnKXr2BQOaYnTni">via GIPHY</a></p>
+        <h4>Unquillo, Córdoba, Argentina</h4>
+        <h5>Made by Leonel Pilet</h5>
+    </footer>
+</body>
+</html>
